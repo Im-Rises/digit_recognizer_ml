@@ -1,4 +1,4 @@
-# AIDigitsRecognizer
+# digit_recognizer
 
 ## Description
 
@@ -19,3 +19,6 @@ MNSIT dataset Kaggle:
 
 sklearn MNSIT dataset original:  
 <https://archive.ics.uci.edu/ml/datasets/Optical+Recognition+of+Handwritten+Digits>
+
+Sklearn documentation:  
+<https://scikit-learn.org/>
