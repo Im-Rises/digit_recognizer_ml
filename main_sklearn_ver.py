@@ -1,10 +1,12 @@
 import pandas as pd
 from sklearn import datasets
+from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 import common_functions as cf
 import matplotlib.pyplot as plt
 import numpy as np
+import seaborn as sns
 
 if __name__ == "__main__":
     # Images are 8x8x1
@@ -67,3 +69,16 @@ if __name__ == "__main__":
     plt.show()
 
     # It seems that the best accuracy would be with one neighbor as the Testing and training accuracy are the higher
+
+    # Predict with k=1
+    knn = KNeighborsClassifier(n_neighbors=1)
+    knn.fit(X_train, y_train)
+    y_pred = knn.predict(X_test)
+
+    # Confusion matrix
+    cm = confusion_matrix(y_test, y_pred)
+    sns.heatmap(cm, annot=True)
+    plt.show()
+
+    # Now that we got a good score on this set of data, we can try to switch to the real MNIST
+    # which is composed of 28x28 images.

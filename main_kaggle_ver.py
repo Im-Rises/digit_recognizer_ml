@@ -5,6 +5,7 @@ from sklearn.neighbors import KNeighborsClassifier
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 import common_functions as cf
 
 if __name__ == "__main__":
@@ -21,9 +22,11 @@ if __name__ == "__main__":
 
     cf.plot_images(X_train)
 
-    # # Display digit at index 0
-    # plt.imshow(X_train.iloc[3, 0:].values.reshape(28, 28), cmap=plt.cm.gray_r)
-    # plt.axis("off")
-    # plt.show()
+    # Display digit at index 0
+    plt.imshow(X_train.iloc[3, 0:].values.reshape(28, 28), cmap=plt.cm.gray_r)
+    plt.axis("off")
+    plt.show()
+
+
 
 
