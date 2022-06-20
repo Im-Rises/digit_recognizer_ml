@@ -1,8 +1,14 @@
 # My ignore files
 
-[Dd]atasets/
+[Dd]atasets/*/**
 [Dd]ocs/
 [Tt]rash/
+
+*.csv
+*.zip
+*.rar
+
+*.idea/
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks

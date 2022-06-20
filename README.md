@@ -4,7 +4,7 @@
 
 AI programmed in python to recognize digits.  
 
-## Dataset MNSIT
+## Dataset MNIST
 
 <https://www.kaggle.com/c/digit-recognizer/>
 
