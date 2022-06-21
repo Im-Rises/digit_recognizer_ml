@@ -1,10 +1,23 @@
 # digit_recognizer
 
+<p align="center">
+        <img src="https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter" alt="jupyterLogo">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="pythonLogo">
+</p>
+
 ## Description
 
 AI programmed in python to recognize digits.  
+The goal is to reach the max score using only Machine Learning. 
 
-## Dataset MNIST
+**Note**
+> A Deep Learning CNN model could have reach that max score easily.
+
+## Quick start
+
+## Project architecture
+
+## MNIST dataset
 
 <https://www.kaggle.com/c/digit-recognizer/>
 
@@ -22,3 +35,12 @@ sklearn MNSIT dataset original:
 
 Sklearn documentation:  
 <https://scikit-learn.org/>
+
+## Contributors
+
+Quentin MOREL :
+
+- @Im-Rises
+- <https://github.com/Im-Rises>
+
+[![GitHub contributors](https://contrib.rocks/image?repo=Im-Rises/page_rank)](https://github.com/Im-Rises/page_rank/graphs/contributors)
