@@ -32,13 +32,15 @@ if __name__ == "__main__":
 
     # Split into training and test set
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
-    knn = KNeighborsClassifier(7)
 
-    # Fit the classifier to the training data
-    knn.fit(X_train, y_train)
 
-    # Print the score
-    print(knn.score(X_test, y_test))
+    # knn = KNeighborsClassifier(7)
+    #
+    # # Fit the classifier to the training data
+    # knn.fit(X_train, y_train)
+    #
+    # # Print the score
+    # print(knn.score(X_test, y_test))
 
     # Setup arrays to store train and test accuracies
     neighbors = np.arange(1, 10)
@@ -73,6 +75,7 @@ if __name__ == "__main__":
     # Predict with k=1
     knn = KNeighborsClassifier(n_neighbors=1)
     knn.fit(X_train, y_train)
+    print(knn.score(X_test, y_test))
     y_pred = knn.predict(X_test)
 
     # Confusion matrix
