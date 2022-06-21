@@ -8,10 +8,14 @@
 ## Description
 
 AI programmed in python to recognize digits.  
-The goal is to reach the max score using only Machine Learning. 
+The goal is to reach the max score using only Machine Learning.
 
 **Note**
-> A Deep Learning CNN model could have reach that max score easily.
+> A Deep Learning CNN model could have reach that max score easily, but I wanted to test what might reach the common
+> Machine Learning classifier.
+
+I try to use a wide variety of models. I got the best scores with Stacked model and Voting Classifier composed of SVM,
+RandomForestClassifier and KnnClassifier.
 
 ## Quick start
 
@@ -19,22 +23,24 @@ The goal is to reach the max score using only Machine Learning.
 
 ## MNIST dataset
 
+MNSIT Kaggle dataset :
 <https://www.kaggle.com/c/digit-recognizer/>
+
+sklearn MNSIT dataset:  
+<https://archive.ics.uci.edu/ml/datasets/Optical+Recognition+of+Handwritten+Digits>
 
 ## Documentations
 
-[Wikipedia MNSIT](https://en.wikipedia.org/wiki/MNIST_database)  
+[Wikipedia MNSIT](https://en.wikipedia.org/wiki/MNIST_database)
 
-[Tutorial from Benoît Cayla](https://www.datacorner.fr/mnsit-1/)  
-
-MNSIT dataset Kaggle:  
-<https://www.kaggle.com/competitions/digit-recognizer/data?select=train.csv>
-
-sklearn MNSIT dataset original:  
-<https://archive.ics.uci.edu/ml/datasets/Optical+Recognition+of+Handwritten+Digits>
+[Tutorial from Benoît Cayla](https://www.datacorner.fr/mnsit-1/)
 
 Sklearn documentation:  
 <https://scikit-learn.org/>
+
+<!--
+https://www.kaggle.com/c/digit-recognizer/discussion/61480#latest-550096
+-->
 
 ## Contributors
 
