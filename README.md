@@ -22,7 +22,7 @@ RandomForestClassifier and KnnClassifier.
 The app was made for the Kaggle Competition, you can find the link of my Notebook below:
 <PLACEHOLDER>
 
-I got a `%` with only Machine Learning models. It is the limit we can obtain in Machine Learning models with the given
+I got a `98.1%` with only Machine Learning models. It is the limit we can obtain in Machine Learning models with the given
 MNIST dataset of 42000 images (the real MNIST dataset as around 60,000 images for training).
 
 ## Quick start
