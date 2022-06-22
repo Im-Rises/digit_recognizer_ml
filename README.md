@@ -12,8 +12,12 @@ The goal is to reach the max score using only Machine Learning.
 
 I try to use a wide variety of models. I get the best score using SVC model with `98.1%` test accuracy.
 I also tried KNN, RandomForest, but I didn't reach a better score than SVC :
+
 - KNN's Score = 0.971
 - RandomForest's Score = 0.968
+
+On the SVC model I tried to train it using data augmentation, but it didn't increase the results a lot, like 0.1% more
+accuracy.
 
 **Note**
 > A Deep Learning CNN model could have reach that max score easily, but I wanted to test what might reach the common
@@ -64,13 +68,13 @@ MNIST Kaggle dataset :
 Wikipedia MNIST:  
 <https://en.wikipedia.org/wiki/MNIST_database>
 
-Tutorial from Benoît Cayla:  
+Tutorial from Benoit Cayla:
 <https://www.datacorner.fr/mnsit-1/>
 
 Sklearn documentation:  
 <https://scikit-learn.org/>
 
-Models for MNSIT best score by Chris Deotte:
+Models for MNIST best score by Chris Deotte:
 <https://www.kaggle.com/c/digit-recognizer/discussion/61480#latest-550096>
 
 ## Contributors
