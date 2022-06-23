@@ -4,7 +4,7 @@
 [Dd]ocs/
 [Tt]rash/
 
-*.csv
+[Dd]atasets/*.csv
 *.zip
 *.rar
 
