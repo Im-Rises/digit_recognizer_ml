@@ -81,13 +81,13 @@ MNIST Kaggle dataset :
 Wikipedia MNIST:  
 <https://en.wikipedia.org/wiki/MNIST_database>
 
-Tutorial from Benoit Cayla:
+Tutorial from Benoit Cayla:  
 <https://www.datacorner.fr/mnsit-1/>
 
 Sklearn documentation:  
 <https://scikit-learn.org/>
 
-Models for MNIST best score by Chris Deotte:
+Models for MNIST best score by Chris Deotte:  
 <https://www.kaggle.com/c/digit-recognizer/discussion/61480#latest-550096>
 
 ## Contributors

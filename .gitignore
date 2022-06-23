@@ -1,6 +1,6 @@
 # My ignore files
 
-[Dd]atasets/*/**
+#[Dd]atasets/*/**
 [Dd]ocs/
 [Tt]rash/
 
