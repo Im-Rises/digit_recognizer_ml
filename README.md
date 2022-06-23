@@ -10,7 +10,8 @@
 AI programmed in python to recognize digits.  
 The goal is to reach the max score using only Machine Learning.
 
-I try to use a wide variety of models. I get the best score using SVC model with `98.757%` test accuracy.
+I try to use a wide variety of models. I get the best score using SVC model with `98.975%` test accuracy which is a
+pretty good score for a Machine Learning model.
 I also tried KNN, RandomForest, but I didn't reach a better score than SVC :
 
 - KNN's Score = 0.971
