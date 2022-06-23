@@ -10,11 +10,24 @@
 AI programmed in python to recognize digits.  
 The goal is to reach the max score using only Machine Learning.
 
-I try to use a wide variety of models. I get the best score using SVC model with `98.1%` test accuracy.
+I try to use a wide variety of models. I get the best score using SVC model with `98.757%` test accuracy.
 I also tried KNN, RandomForest, but I didn't reach a better score than SVC :
 
 - KNN's Score = 0.971
 - RandomForest's Score = 0.968
+
+<!--
+Classifier:
+- KNeighborsClassifier
+- svm.svc
+- RandomForestClassifier
+- DecisionTreeClassifier
+- SGDClassifier
+
+Ensemble Learning:
+- VotingClassifier
+- StackingClassifier
+-->
 
 On the SVC model I tried to train it using data augmentation, but it didn't increase the results a lot, like 0.1% more
 accuracy.
