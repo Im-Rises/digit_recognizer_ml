@@ -15,47 +15,38 @@ pretty good score for a Machine Learning model.
 I also tried KNN, RandomForest, but I didn't reach a better score than SVC :
 
 - KNN's Score = 0.97882
-- RandomForest's Score = 0.968
+- RandomForest's Score = 0.97721
 
-<!--
-Classifier:
-- KNeighborsClassifier
-- svm.svc
-- RandomForestClassifier
-- DecisionTreeClassifier
-- SGDClassifier
+For each model training I use scaling and data augmentation. For data augmentation I created functions ti shift, rotate
+and zoom the images.
+I ended up not using the zoom because it wasn't increasing the performance of the model.
 
-Ensemble Learning:
-- VotingClassifier
-- StackingClassifier
--->
-
-On the SVC model I tried to train it using data augmentation, but it didn't increase the results a lot, like 0.1% more
-accuracy.
+The MNIST dataset I used is a sliced one for the Kaggle competition, you can find the information in the section
+below `Kaggle competition`.
 
 **Note**
 > A Deep Learning CNN model could have reach that max score easily, but I wanted to test what might reach the common
 > Machine Learning classifier.
 
-<!--
-I try to use a wide variety of models. I get the best score using SVC model from sklearn. I also tried KNN,
-RandomForest, SGD, DecisionTreeClassifier. I also tried ensemble learning with VotingClassifier and a Stacked Model which I get a score close to
-the SVC model.
--->
-
 ## Kaggle competition
 
-The app was made for the Kaggle Competition, you can find the link of my Notebook below:
-<PLACEHOLDER>
+The app was made for the Kaggle Competition, you can find the link of my Notebook below:  
+<https://www.kaggle.com/imrises/mnist-ml-svc-99>
 
-I got a `98.17%` with only Machine Learning models. It is the limit we can have in Machine Learning models with the
-given MNIST dataset of 42000 images (the real MNIST dataset as around 60,000 images for training).
+I got a `98.975%` which is superb score for a Machine Learning model on MNIST dataset. I only used the provided
+part of the MNIST dataset, this MNIST dataset is composed of 42 000 images (the real MNIST dataset as around 60 000
+images for training).
 
 ## Quick start
 
-The project is composed of one file named `main_kaggle.ipynb` at the root of the project.
+The project is composed of three main files I found the best for MNIST classification. All at the root of the project.
 
-It is a Jupyter Notebook file, the outputs are still available in the file, but you can start it to re-train the model.
+- main_svc.ipynb
+- main_knn.ipynb
+- main_random_forest.ipynb
+
+They are Jupyter Notebook files, the outputs are still available in the file, but you can start it to re-train the
+models.
 
 Before, you need to install the Python Packages, you can find them all in the `requirements.txt` file. To install them
 all directly type the following command in your terminal:
@@ -63,6 +54,9 @@ all directly type the following command in your terminal:
 ```bash
 pip install -r requirements.txt
 ```
+
+You also need to have an IDE or use the Jupyter Notebook server directly.  
+<https://jupyter.org>
 
 ## MNIST images
 
@@ -93,11 +87,19 @@ Wikipedia MNIST:
 Tutorial from Benoit Cayla:  
 <https://www.datacorner.fr/mnsit-1/>
 
-Sklearn documentation:  
-<https://scikit-learn.org/>
-
 Models for MNIST best score by Chris Deotte:  
 <https://www.kaggle.com/c/digit-recognizer/discussion/61480#latest-550096>
+
+## Libraries and languages
+
+Python:  
+<https://www.python.org>
+
+Jupyter Notebook:  
+<https://jupyter.org>
+
+Scikit-Learn:  
+<https://scikit-learn.org/>
 
 ## Contributors
 
@@ -107,3 +109,22 @@ Quentin MOREL :
 - <https://github.com/Im-Rises>
 
 [![GitHub contributors](https://contrib.rocks/image?repo=Im-Rises/page_rank)](https://github.com/Im-Rises/page_rank/graphs/contributors)
+
+<!--
+I try to use a wide variety of models. I get the best score using SVC model from sklearn. I also tried KNN,
+RandomForest, SGD, DecisionTreeClassifier. I also tried ensemble learning with VotingClassifier and a Stacked Model which I get a score close to
+the SVC model.
+-->
+
+<!--
+Classifier:
+- KNeighborsClassifier
+- svm.svc
+- RandomForestClassifier
+- DecisionTreeClassifier
+- SGDClassifier
+
+Ensemble Learning:
+- VotingClassifier
+- StackingClassifier
+-->
