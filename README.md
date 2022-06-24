@@ -64,13 +64,21 @@ all directly type the following command in your terminal:
 pip install -r requirements.txt
 ```
 
-## Images
+## MNIST images
 
-Dataset image here
+![mnist_images](https://user-images.githubusercontent.com/59691442/175500317-960a195c-6b82-4538-bb8a-ebad84504e76.png)
+
+<!--
+| MNIST | MNIST |
+|------------------|-----------|
+|![mnist_images](https://user-images.githubusercontent.com/59691442/175499175-62fb55f9-1fb6-4615-840f-3701c1aa2cdf.png)|![mnsit_images](https://user-images.githubusercontent.com/59691442/175499704-5920ab92-633a-41a6-9f34-8f67b9cbd57b.png)|
+-->
+
+## Study images
 
 | Confusion Matrix | ROC curve |
 |------------------|-----------|
-| <>               | <>        |
+|![confusion_matrix](https://user-images.githubusercontent.com/59691442/175498984-9e00e847-ec4d-4cf6-8400-211cb4d66cc8.png)|![roc_curve](https://user-images.githubusercontent.com/59691442/175499129-372a7d61-31d1-46fe-9c7a-d0d3f0b9e1e4.png)|
 
 ## MNIST dataset
 
