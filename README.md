@@ -76,13 +76,13 @@ pip install -r requirements.txt
 
 ## Study images
 
-| Confusion Matrix | ROC curve |
-|------------------|-----------|
-|![confusion_matrix](https://user-images.githubusercontent.com/59691442/175498984-9e00e847-ec4d-4cf6-8400-211cb4d66cc8.png)|![roc_curve](https://user-images.githubusercontent.com/59691442/175499129-372a7d61-31d1-46fe-9c7a-d0d3f0b9e1e4.png)|
+| Confusion Matrix                                                                                                           | ROC curve                                                                                                           |
+|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| ![confusion_matrix](https://user-images.githubusercontent.com/59691442/175498984-9e00e847-ec4d-4cf6-8400-211cb4d66cc8.png) | ![roc_curve](https://user-images.githubusercontent.com/59691442/175499129-372a7d61-31d1-46fe-9c7a-d0d3f0b9e1e4.png) |
 
 ## MNIST dataset
 
-MNIST Kaggle dataset :
+MNIST Kaggle dataset :  
 <https://www.kaggle.com/c/digit-recognizer/>
 
 ## Documentations
