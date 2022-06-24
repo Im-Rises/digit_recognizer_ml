@@ -14,7 +14,7 @@ I try to use a wide variety of models. I get the best score using SVC model with
 pretty good score for a Machine Learning model.
 I also tried KNN, RandomForest, but I didn't reach a better score than SVC :
 
-- KNN's Score = 0.971
+- KNN's Score = 0.97882
 - RandomForest's Score = 0.968
 
 <!--
