@@ -76,9 +76,9 @@ pip install -r requirements.txt
 
 ## Study images
 
-| Confusion Matrix                                                                                                           | ROC curve                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| ![confusion_matrix](https://user-images.githubusercontent.com/59691442/175498984-9e00e847-ec4d-4cf6-8400-211cb4d66cc8.png) | ![roc_curve](https://user-images.githubusercontent.com/59691442/175499129-372a7d61-31d1-46fe-9c7a-d0d3f0b9e1e4.png) |
+| Confusion Matrix | ROC curve|
+|---|---|
+| ![confusion_matrix](https://user-images.githubusercontent.com/59691442/175617912-72551a00-7f05-4967-adfc-a96d9924a40e.png) | ![roc_curve](https://user-images.githubusercontent.com/59691442/175617938-ff23dfb9-aa45-4de5-8d79-9c9b54d1cde2.png) |
 
 ## MNIST dataset
 
