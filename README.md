@@ -3,6 +3,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter" alt="jupyterLogo">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="pythonLogo">
+    <img src="https://user-images.githubusercontent.com/59691442/184630101-11dfdcf4-4693-403f-b7dc-93ebe64077a8.png" alt="sklearnLogo" style="height: 28px">
 </p>
 
 ## Description
